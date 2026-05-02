@@ -19,83 +19,85 @@
         }
     </style>
 </head>
-<body class="min-h-screen bg-[#f8faf9] lg:p-6 flex justify-center text-slate-700">
+<body class="min-h-screen bg-[#f8faf9] lg:p-10 flex justify-center text-slate-700">
 
-    <div class="max-w-5xl w-full bg-white shadow-2xl rounded-[2rem] overflow-hidden border border-slate-100 flex flex-col my-4 lg:my-0">
+    <div class="max-w-6xl w-full bg-white shadow-2xl rounded-[2.5rem] overflow-hidden border border-slate-100 flex flex-col my-4 lg:my-0">
         
-        <div class="bg-gradient-to-r from-[#e8f2ee] to-[#d4e6e0] px-8 py-4 flex flex-col md:flex-row md:items-center justify-between border-b border-teal-100/50 gap-4 text-sm">
-            <div class="flex items-center gap-4">
-                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-teal-600 shadow-sm shrink-0">
-                    <i data-lucide="heart" fill="currentColor" size="20"></i>
+        <div class="bg-gradient-to-r from-[#e8f2ee] to-[#d4e6e0] px-10 py-6 flex flex-col md:flex-row md:items-center justify-between border-b border-teal-100/50 gap-4">
+            <div class="flex items-center gap-5">
+                <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center text-teal-600 shadow-sm shrink-0">
+                    <i data-lucide="heart" fill="currentColor" size="28"></i>
                 </div>
                 <div class="text-left">
-                    <h1 class="text-xl font-bold text-slate-800 leading-tight">Welcome Home to Block 3</h1>
-                    <p class="text-[10px] text-slate-600 font-medium tracking-tight uppercase">Official Onboarding Guide for Owners of Block 03 Mantri serenity</p>
+                    <h1 class="text-2xl font-black text-slate-800 leading-tight">Welcome Home to Block 3</h1>
+                    <p class="text-xs text-slate-600 font-bold tracking-wide uppercase">Official Onboarding Guide for Owners of Block 03 Mantri serenity</p>
                 </div>
             </div>
             
-            <div class="flex flex-col gap-1 text-right">
+            <div class="flex flex-col gap-2 text-right">
                 <div class="flex items-center justify-end gap-2 group">
-                    <i data-lucide="mail" size="12" class="text-teal-600"></i>
-                    <a href="mailto:block3mantriserenity@googlegroups.com" class="text-[10px] font-mono text-slate-600 hover:text-teal-700 hover:underline">
+                    <i data-lucide="mail" size="14" class="text-teal-600"></i>
+                    <a href="mailto:block3mantriserenity@googlegroups.com" class="text-xs font-mono font-semibold text-slate-600 hover:text-teal-700 hover:underline">
                         block3mantriserenity@googlegroups.com
                     </a>
                 </div>
                 <div class="flex items-center justify-end gap-2 group">
-                    <i data-lucide="mail" size="12" class="text-teal-600"></i>
-                    <a href="mailto:msallreps@googlegroups.com" class="text-[10px] font-mono text-slate-600 hover:text-teal-700 hover:underline">
+                    <i data-lucide="mail" size="14" class="text-teal-600"></i>
+                    <a href="mailto:msallreps@googlegroups.com" class="text-xs font-mono font-semibold text-slate-600 hover:text-teal-700 hover:underline">
                         msallreps@googlegroups.com
                     </a>
                 </div>
             </div>
         </div>
 
-        <div class="p-6 space-y-6 flex-grow">
+        <div class="p-8 space-y-8 flex-grow">
             
-            <section class="bg-slate-50/30 rounded-2xl p-4 border border-slate-100">
-                <div class="flex items-center gap-2 mb-3">
-                    <i data-lucide="wallet" size="16" class="text-teal-600"></i>
-                    <h2 class="text-sm font-bold uppercase tracking-wider text-slate-800">1. Onboarding Payments</h2>
+            <section class="bg-slate-50/30 rounded-3xl p-6 border border-slate-100">
+                <div class="flex items-center gap-3 mb-4">
+                    <i data-lucide="wallet" size="20" class="text-teal-600"></i>
+                    <h2 class="text-lg font-bold uppercase tracking-wider text-slate-800">1. Onboarding Payments</h2>
                 </div>
                 
-                <div class="overflow-x-auto rounded-xl border border-slate-200/60 bg-white shadow-sm">
-                    <table class="w-full text-left border-collapse min-w-[500px]">
+                <div class="overflow-x-auto rounded-2xl border border-slate-200/60 bg-white shadow-sm">
+                    <table class="w-full text-left border-collapse min-w-[600px]">
                         <thead>
-                            <tr class="bg-slate-50 border-b border-slate-200 text-[9px] uppercase tracking-wider font-black text-slate-400">
-                                <th class="py-2 pl-4">Fee</th>
-                                <th class="py-2">Amount</th>
-                                <th class="py-2">Frequency</th>
-                                <th class="py-2 pr-4">Purpose</th>
+                            <tr class="bg-slate-50 border-b border-slate-200 text-xs uppercase tracking-wider font-black text-slate-400">
+                                <th class="py-4 px-6">Fee</th>
+                                <th class="py-4 px-4">Amount</th>
+                                <th class="py-4 px-4">Frequency</th>
+                                <th class="py-4 px-6">Purpose</th>
                             </tr>
                         </thead>
-                        <tbody class="text-[11px]" id="fee-table-body">
+                        <tbody class="text-[13px]" id="fee-table-body">
                             </tbody>
                     </table>
                 </div>
                 
-                <div class="mt-3 bg-amber-50 border border-amber-200 rounded-xl p-3 flex items-start gap-3">
-                    <i data-lucide="alert-circle" size="16" class="text-amber-600 shrink-0 mt-0.5"></i>
-                    <p class="text-[10px] font-bold text-amber-900 leading-normal text-balance">
+                <div class="mt-5 bg-amber-50 border border-amber-200 rounded-2xl p-4 flex items-start gap-4">
+                    <i data-lucide="alert-circle" size="20" class="text-amber-600 shrink-0 mt-0.5"></i>
+                    <p class="text-xs font-bold text-amber-900 leading-relaxed text-balance">
                         Important Note: Kindly make all the payments through MyGate Application. Late payments will attract a penalty as per Governance and DOD guidelines.
                     </p>
                 </div>
             </section>
 
-            <div class="grid md:grid-cols-2 gap-6">
+            <div class="grid md:grid-cols-2 gap-8">
                 <section class="flex flex-col">
-                    <div class="flex items-center gap-2 mb-3">
-                        <i data-lucide="clipboard-check" size="16" class="text-amber-600"></i>
-                        <h2 class="text-sm font-bold uppercase tracking-wider text-slate-800 text-balance leading-tight">2. Documents for MyGate Onboarding</h2>
+                    <div class="flex items-center gap-3 mb-4">
+                        <i data-lucide="clipboard-check" size="20" class="text-amber-600"></i>
+                        <h2 class="text-lg font-bold uppercase tracking-wider text-slate-800 text-balance leading-tight">2. Documents for MyGate</h2>
                     </div>
-                    <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex-grow">
-                        <ul class="space-y-2.5" id="docs-list">
+                    <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-sm flex-grow">
+                        <ul class="space-y-4" id="docs-list">
                             </ul>
-                        <div class="mt-4 pt-4 border-t border-slate-100">
-                            <div class="flex items-center justify-between p-2 bg-[#fffaf0] rounded-xl border border-orange-100">
-                                <div class="flex items-center gap-2">
-                                    <i data-lucide="flame-kindling" size="14" class="text-orange-500"></i>
-                                    <span class="text-[10px] font-bold text-orange-900 uppercase">Fire Safety:</span>
-                                    <span class="text-[10px] text-orange-800 font-medium tracking-tight leading-none">Collect Fire Extinguisher from PropCare Office</span>
+                        <div class="mt-6 pt-6 border-t border-slate-100">
+                            <div class="flex items-center justify-between p-4 bg-[#fffaf0] rounded-2xl border border-orange-100">
+                                <div class="flex items-center gap-3">
+                                    <i data-lucide="flame-kindling" size="18" class="text-orange-500"></i>
+                                    <div>
+                                        <span class="text-xs font-black text-orange-900 uppercase block">Fire Safety:</span>
+                                        <span class="text-xs text-orange-800 font-semibold leading-tight">Collect Fire Extinguisher from PropCare Office</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -103,97 +105,96 @@
                 </section>
 
                 <section class="flex flex-col">
-                    <div class="flex items-center gap-2 mb-3">
-                        <i data-lucide="building-2" size="16" class="text-blue-600"></i>
-                        <h2 class="text-sm font-bold uppercase tracking-wider text-slate-800">3. Bank Details</h2>
+                    <div class="flex items-center gap-3 mb-4">
+                        <i data-lucide="building-2" size="20" class="text-blue-600"></i>
+                        <h2 class="text-lg font-bold uppercase tracking-wider text-slate-800">3. Bank Details</h2>
                     </div>
-                    <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm space-y-3">
+                    <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-sm space-y-5">
                         <div>
-                            <div class="flex justify-between items-center mb-0.5">
-                                <label class="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Account Name</label>
-                                <button onclick="copyToClipboard('MANTRI SERENITY APARTMENT OWNERS WELFARE ASSOCIATION BLOCK 3', 'Name')" class="p-1 hover:bg-teal-50 rounded-md transition-colors text-slate-300 hover:text-teal-600">
-                                    <i data-lucide="copy" size="12"></i>
+                            <div class="flex justify-between items-center mb-1">
+                                <label class="text-[10px] font-black text-slate-400 uppercase tracking-widest">Account Name</label>
+                                <button onclick="copyToClipboard('MANTRI SERENITY APARTMENT OWNERS WELFARE ASSOCIATION BLOCK 3', 'Name')" class="p-1.5 hover:bg-teal-50 rounded-lg transition-colors text-slate-300 hover:text-teal-600">
+                                    <i data-lucide="copy" size="16"></i>
                                 </button>
                             </div>
-                            <p class="text-[10px] font-bold text-slate-800 leading-tight uppercase">MANTRI SERENITY APARTMENT OWNERS WELFARE ASSOCIATION BLOCK 3</p>
+                            <p class="text-[13px] font-black text-slate-800 leading-tight uppercase">MANTRI SERENITY APARTMENT OWNERS WELFARE ASSOCIATION BLOCK 3</p>
                         </div>
                         
-                        <div class="grid grid-cols-2 gap-4">
+                        <div class="grid grid-cols-2 gap-6">
                             <div>
-                                <div class="flex justify-between items-center mb-0.5">
-                                    <label class="text-[9px] font-bold text-slate-400 uppercase tracking-widest">A/C Number</label>
-                                    <button onclick="copyToClipboard('10240019296', 'A/C')" class="p-1 hover:bg-teal-50 rounded-md transition-colors text-slate-300 hover:text-teal-600">
-                                        <i data-lucide="copy" size="12"></i>
+                                <div class="flex justify-between items-center mb-1">
+                                    <label class="text-[10px] font-black text-slate-400 uppercase tracking-widest">A/C Number</label>
+                                    <button onclick="copyToClipboard('10240019296', 'A/C')" class="p-1.5 hover:bg-teal-50 rounded-lg transition-colors text-slate-300 hover:text-teal-600">
+                                        <i data-lucide="copy" size="16"></i>
                                     </button>
                                 </div>
-                                <p class="font-mono text-slate-800 font-bold text-xs leading-none tracking-tight">10240019296</p>
+                                <p class="font-mono text-slate-800 font-bold text-sm leading-none tracking-wider">10240019296</p>
                             </div>
                             <div>
-                                <div class="flex justify-between items-center mb-0.5">
-                                    <label class="text-[9px] font-bold text-slate-400 uppercase tracking-widest text-nowrap">IFSC Code</label>
-                                    <button onclick="copyToClipboard('IDFB0080186', 'IFSC')" class="p-1 hover:bg-teal-50 rounded-md transition-colors text-slate-300 hover:text-teal-600">
-                                        <i data-lucide="copy" size="12"></i>
+                                <div class="flex justify-between items-center mb-1">
+                                    <label class="text-[10px] font-black text-slate-400 uppercase tracking-widest text-nowrap">IFSC Code</label>
+                                    <button onclick="copyToClipboard('IDFB0080186', 'IFSC')" class="p-1.5 hover:bg-teal-50 rounded-lg transition-colors text-slate-300 hover:text-teal-600">
+                                        <i data-lucide="copy" size="16"></i>
                                     </button>
                                 </div>
-                                <p class="font-mono text-slate-800 font-bold text-xs leading-none tracking-tight">IDFB0080186</p>
+                                <p class="font-mono text-slate-800 font-bold text-sm leading-none tracking-wider">IDFB0080186</p>
                             </div>
                         </div>
 
-                        <div class="flex justify-between gap-4 pt-2 border-t border-slate-50">
+                        <div class="flex justify-between gap-6 pt-3 border-t border-slate-50">
                             <div class="flex-1">
-                                <label class="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Swift</label>
-                                <p class="font-mono text-slate-600 text-[10px] leading-none">IDFBINBBMUM</p>
+                                <label class="text-[10px] font-black text-slate-400 uppercase tracking-widest">Swift</label>
+                                <p class="font-mono text-slate-600 text-xs leading-none">IDFBINBBMUM</p>
                             </div>
                             <div class="flex-1">
-                                <div class="flex justify-between items-center">
-                                    <label class="text-[9px] font-bold text-slate-400 uppercase tracking-widest">UPI ID</label>
-                                    <button onclick="copyToClipboard('mantri123@idfcbank', 'UPI')" class="p-1 hover:bg-teal-50 rounded-md transition-colors text-slate-300 hover:text-teal-600">
-                                        <i data-lucide="copy" size="12"></i>
+                                <div class="flex justify-between items-center mb-1">
+                                    <label class="text-[10px] font-black text-slate-400 uppercase tracking-widest">UPI ID</label>
+                                    <button onclick="copyToClipboard('mantri123@idfcbank', 'UPI')" class="p-1.5 hover:bg-teal-50 rounded-lg transition-colors text-slate-300 hover:text-teal-600">
+                                        <i data-lucide="copy" size="16"></i>
                                     </button>
                                 </div>
-                                <p class="text-teal-600 font-bold text-[10px] italic leading-none">mantri123@idfcbank</p>
+                                <p class="text-teal-600 font-black text-xs italic leading-none">mantri123@idfcbank</p>
                             </div>
                         </div>
 
-                        <div class="bg-slate-50/80 rounded-xl p-2 text-[9px] text-slate-500 border border-slate-100 flex items-center justify-between">
-                            <p class="font-bold uppercase text-slate-600">IDFC FIRST — BANGALORE - RR NAGAR</p>
-                            <i data-lucide="building-2" size="12" class="opacity-30"></i>
+                        <div class="bg-slate-50/80 rounded-2xl p-3 text-[11px] text-slate-500 border border-slate-100 flex items-center justify-between">
+                            <p class="font-black uppercase text-slate-600">IDFC FIRST — BANGALORE - RR NAGAR</p>
+                            <i data-lucide="building-2" size="16" class="opacity-30"></i>
                         </div>
                     </div>
                 </section>
             </div>
 
-            <section class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2 border-t border-slate-100">
-                <div class="flex items-center gap-4 bg-teal-50/40 p-3 rounded-2xl border border-teal-100/50 transition-colors hover:bg-teal-50/60">
-                    <div class="w-16 h-16 bg-white rounded-xl shadow-sm border border-teal-100 flex items-center justify-center p-1 shrink-0 overflow-hidden">
+            <section class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4 border-t border-slate-100">
+                <div class="flex items-center gap-6 bg-teal-50/40 p-5 rounded-3xl border border-teal-100/50 transition-colors hover:bg-teal-50/60">
+                    <div class="w-32 h-32 bg-white rounded-2xl shadow-sm border border-teal-100 flex items-center justify-center p-2 shrink-0 overflow-hidden">
                         <img src="https://plain-enam-prod-public.komododecks.com/202605/01/kecCw6Esl1s4RJKnnjsM/image.jpg" alt="Block 3 IDFC Bank QR" class="w-full h-full object-contain" />
                     </div>
                     <div>
-                        <p class="text-[11px] font-bold text-teal-900 leading-tight">Block 3 IDFC Bank QR Code</p>
-                        <p class="text-[9px] text-teal-700/70 mt-1 leading-tight font-medium">Scan the UPI QR code to make payments to Block 03 Account</p>
+                        <p class="text-sm font-black text-teal-900 leading-tight mb-2">Block 3 IDFC Bank QR Code</p>
+                        <p class="text-xs text-teal-700/70 leading-relaxed font-semibold">Scan the UPI QR code to make payments to Block 03 Account via any UPI App.</p>
                     </div>
                 </div>
 
-                <div class="flex items-center gap-4 bg-blue-50/40 p-3 rounded-2xl border border-blue-100/50 transition-colors hover:bg-blue-50/60">
-                    <div class="w-16 h-16 bg-white rounded-xl shadow-sm border border-blue-100 flex items-center justify-center p-1 shrink-0 overflow-hidden">
+                <div class="flex items-center gap-6 bg-blue-50/40 p-5 rounded-3xl border border-blue-100/50 transition-colors hover:bg-blue-50/60">
+                    <div class="w-32 h-32 bg-white rounded-2xl shadow-sm border border-blue-100 flex items-center justify-center p-2 shrink-0 overflow-hidden">
                         <img src="https://plain-enam-prod-public.komododecks.com/202605/01/sMM2Ztklwfsa1El7LaCy/image.jpg" alt="New Gail Connection" class="w-full h-full object-contain" />
                     </div>
                     <div>
-                        <p class="text-[11px] font-bold text-blue-900 leading-tight">New Gail Connection</p>
-                        <p class="text-[9px] text-blue-700/70 mt-1 leading-tight font-medium">Join WhatsApp Group for Gail Connection</p>
+                        <p class="text-sm font-black text-blue-900 leading-tight mb-2">New Gail Connection</p>
+                        <p class="text-xs text-blue-700/70 leading-relaxed font-semibold">Scan to join the official WhatsApp Group for Gail Pipeline Connection.</p>
                     </div>
                 </div>
             </section>
         </div>
 
-        <div class="bg-slate-50 px-8 py-2 border-t border-slate-100 flex justify-between items-center">
-            <p class="text-[8px] text-slate-400 uppercase tracking-widest font-bold">Mantri Serenity Owners Welfare Association — Block 3</p>
-            <p id="copy-toast" class="copy-toast text-[9px] text-green-600 font-bold tracking-tight"></p>
+        <div class="bg-slate-50 px-10 py-3 border-t border-slate-100 flex justify-between items-center">
+            <p class="text-[10px] text-slate-400 uppercase tracking-widest font-black">Mantri Serenity Owners Welfare Association — Block 3</p>
+            <p id="copy-toast" class="copy-toast text-xs text-green-600 font-black tracking-tight"></p>
         </div>
     </div>
 
     <script>
-        // Swapped OC Compliance and Block 3 Fund positions
         const feeDetails = [
             { fee: "RWA Onboarding", amount: "₹1000", frequency: "One-Time", purpose: "MyGate Registration" },
             { fee: "Block 3 Tranche Fund", amount: "₹12000", frequency: "One-Time", purpose: "Pre Key Handover( Payable to Block 03 Bank Account)" },
@@ -210,33 +211,32 @@
             "Screenshot of Payments done for Block 3 Tranche Fund, BESCOM and RWA Fee."
         ];
 
-        // Render Fee Table
+        // Render Fee Table with padding for bigger text
         const tableBody = document.getElementById('fee-table-body');
         feeDetails.forEach(item => {
             const row = `
                 <tr class="border-b border-slate-50 last:border-0 hover:bg-teal-50/30 transition-colors">
-                    <td class="py-2 pl-4 font-bold text-slate-800">${item.fee}</td>
-                    <td class="py-2 font-bold text-teal-700">${item.amount}</td>
-                    <td class="py-2 text-slate-500 font-medium">${item.frequency}</td>
-                    <td class="py-2 pr-4 text-slate-500 leading-tight">${item.purpose}</td>
+                    <td class="py-4 px-6 font-black text-slate-800">${item.fee}</td>
+                    <td class="py-4 px-4 font-black text-teal-700">${item.amount}</td>
+                    <td class="py-4 px-4 text-slate-500 font-bold">${item.frequency}</td>
+                    <td class="py-4 px-6 text-slate-500 font-medium leading-relaxed">${item.purpose}</td>
                 </tr>
             `;
             tableBody.innerHTML += row;
         });
 
-        // Render Docs List
+        // Render Docs List with larger icons
         const docsList = document.getElementById('docs-list');
         docs.forEach(doc => {
             const li = `
-                <li class="flex items-start gap-2 text-[10.5px] leading-relaxed">
-                    <i data-lucide="shield-check" size="14" class="text-teal-500 shrink-0 mt-0.5"></i>
-                    <span class="font-medium text-slate-700">${doc}</span>
+                <li class="flex items-start gap-4 text-xs leading-relaxed">
+                    <i data-lucide="shield-check" size="18" class="text-teal-500 shrink-0 mt-0.5"></i>
+                    <span class="font-bold text-slate-700">${doc}</span>
                 </li>
             `;
             docsList.innerHTML += li;
         });
 
-        // Copy functionality
         function copyToClipboard(text, label) {
             const el = document.createElement('textarea');
             el.value = text;
@@ -254,7 +254,6 @@
             }, 2000);
         }
 
-        // Initialize Lucide Icons
         lucide.createIcons();
     </script>
 </body>
